@@ -1,0 +1,21 @@
+{
+  "name": "shortstack",
+  "version": "2.0.0",
+  "author": "Adam Argyle",
+  "description": "wmr & postcss starter",
+  "license": "ISC",
+  "main": "index.js",
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "start": "wmr",
+    "build": "wmr build",
+    "production": "wmr build && wmr serve --http2"
+  },
+  "devDependencies": {
+    "postcss-easings": "^3.0.1",
+    "postcss-preset-env": "6.7.0",
+    "wmr": "latest"
+  }
+}
