@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "plugin:js": "@snowpack/plugin-babel",
+    "build:css": "postcss",
+    "mount:app": "mount app --to /",
+    "mount:src": "mount src",
+    "mount:web_modules": "mount web_modules"
+  },
+  "plugins": [
+    "@snowpack/plugin-babel"
+  ],
+  "devOptions": {
+    "out": "dist"
+  }
+}
